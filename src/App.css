@@ -1,0 +1,15 @@
+#app {
+  display: flex;
+  flex-direction: row; /* Align navigation and content horizontally */
+}
+
+#content {
+  margin-left: 75px; /* Space for the fixed navigation bar */
+  padding: 20px;
+  flex-grow: 1; /* Ensure the content takes up remaining space */
+  overflow-y: auto; /* Allow scrolling within the content */
+}
+
+#home, #projects, #about {
+  margin-bottom: 50px;
+}
